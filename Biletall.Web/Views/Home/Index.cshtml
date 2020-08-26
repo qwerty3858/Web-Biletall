@@ -1,0 +1,117 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<link href="~/lib/font-awesome/css/biletall.css" rel="stylesheet" />
+<style>
+
+    body {
+        background: url(https://biletall-cdn.mncdn.com/img-v7/desktop/bg-min.jpg?v=20392) no-repeat top center white;
+    }
+</style>
+<div class="master-banner">
+    <div class="text-center">
+
+        @{
+            string sonuc = ViewBag.Sonuc;
+            if (!string.IsNullOrEmpty(sonuc))
+            {
+                <h1 style="color:red">@sonuc</h1>
+            }
+        }
+
+        <div class="col-md-6">
+
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a style="color:black;" class="nav-link active" data-toggle="tab" href="#home">Otobüs</a>
+                </li>
+                <li class="nav-item">
+                    <a style="color:black;" class ="nav-link" data-toggle="tab" href="#menu1">Uçak</a>
+                </li>
+                <li class="nav-item">
+                    <a style="color:black;" class="nav-link" data-toggle="tab" href="#menu2">Feribot</a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane container active" id="home">
+                    <div class="bd-example">
+
+                        <form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="Index">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <input name="grpYon" type="radio" checked="checked" id="radio-tek-yon">
+                                        <label for="radio-tek-yon" class="teperadyolar">TEK YÖN</label>
+                                    </td>
+                                    <td>
+                                    </td>
+                                    <td>
+                                        <input name="grpYon" type="radio" disabled="disabled" id="radio-cift-yon">
+                                        <label for="radio-cift-yon" class="teperadyolar">GİDİŞ-DÖNÜŞ</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Nereden </td>
+                                    <td> </td>
+                                    <td>Nereye </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select class="js-example-basic-multiple" name="nereden">
+                                            @foreach (var item in ViewBag.Cities)
+                                            {
+                                                <option value="@item.ID">@item.Ad</option>
+
+                                            }
+                                        </select>
+                                    </td>
+                                    <td> </td>
+
+                                    <td>
+
+                                        <select class="js-example-basic-multiple" *@ name="nereye">
+                                            @foreach (var item in ViewBag.Cities)
+                                            {
+                                                <option value="@item.ID">@item.Ad</option>
+
+                                            }
+
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Gidiş Tarihi
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="text" id="datepicker" name="tarih">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <input type="submit" value="Otobüs Bileti Ara" class="btn btn-danger float-right" />
+                                    </td>
+                                </tr>
+                            </table>
+                            <hr />
+                        </form>
+                    </div>
+
+
+
+                </div>
+                <div class="tab-pane container fade" id="menu1">...</div>
+                <div class="tab-pane container fade" id="menu2">...</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

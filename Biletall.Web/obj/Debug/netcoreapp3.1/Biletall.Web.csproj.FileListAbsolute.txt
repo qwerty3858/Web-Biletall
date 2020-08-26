@@ -1,0 +1,607 @@
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.local.json
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.StaticWebAssets.xml
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.exe
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.deps.json
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.runtimeconfig.json
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.runtimeconfig.dev.json
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.pdb
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.Views.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.Views.pdb
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Net.Http.WinHttpHandler.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.Duplex.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.Http.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.NetTcp.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.Primitives.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.Security.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Net.Http.WinHttpHandler.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win7\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.csprojAssemblyReference.cache
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.AssemblyInfoInputs.cache
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.AssemblyInfo.cs
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.csproj.CoreCompileInputs.cache
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorAssemblyInfo.cache
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorAssemblyInfo.cs
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.TagHelpers.input.cache
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.TagHelpers.output.cache
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorCoreGenerate.cache
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorTargetAssemblyInfo.cache
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorTargetAssemblyInfo.cs
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.Views.pdb
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.csproj.CopyComplete
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\staticwebassets\Biletall.Web.StaticWebAssets.Manifest.cache
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\staticwebassets\Biletall.Web.StaticWebAssets.xml
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.dll
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.pdb
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.genruntimeconfig.cache
+C:\Users\OACLIENT1\source\repos\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Connected Services\ServiceReference1\ConnectedService.json
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Connected Services\ServiceReference1\ConnectedService.json
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.local.json
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.StaticWebAssets.xml
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.exe
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.deps.json
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.runtimeconfig.json
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.runtimeconfig.dev.json
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.pdb
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.Views.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.Views.pdb
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Net.Http.WinHttpHandler.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.Duplex.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.Http.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.NetTcp.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.Primitives.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.Security.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Net.Http.WinHttpHandler.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win7\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.csprojAssemblyReference.cache
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.AssemblyInfoInputs.cache
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.AssemblyInfo.cs
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.csproj.CoreCompileInputs.cache
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorAssemblyInfo.cache
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorAssemblyInfo.cs
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.TagHelpers.input.cache
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.TagHelpers.output.cache
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorCoreGenerate.cache
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorTargetAssemblyInfo.cache
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorTargetAssemblyInfo.cs
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.Views.pdb
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.csproj.CopyComplete
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\staticwebassets\Biletall.Web.StaticWebAssets.Manifest.cache
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\staticwebassets\Biletall.Web.StaticWebAssets.xml
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.dll
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.pdb
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.genruntimeconfig.cache
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Seferler.cshtml.g.cs
+C:\Users\elber\Desktop\odev\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Connected Services\ServiceReference1\ConnectedService.json
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.local.json
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.StaticWebAssets.xml
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.exe
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.deps.json
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.runtimeconfig.json
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.runtimeconfig.dev.json
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.pdb
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.Views.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.Views.pdb
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Net.Http.WinHttpHandler.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.Duplex.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.Http.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.NetTcp.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.Primitives.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.Security.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Net.Http.WinHttpHandler.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win7\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.csprojAssemblyReference.cache
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.AssemblyInfoInputs.cache
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.AssemblyInfo.cs
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.csproj.CoreCompileInputs.cache
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorAssemblyInfo.cache
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorAssemblyInfo.cs
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.TagHelpers.input.cache
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.TagHelpers.output.cache
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorCoreGenerate.cache
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Seferler.cshtml.g.cs
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorTargetAssemblyInfo.cache
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorTargetAssemblyInfo.cs
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.Views.pdb
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.csproj.CopyComplete
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\staticwebassets\Biletall.Web.StaticWebAssets.Manifest.cache
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\staticwebassets\Biletall.Web.StaticWebAssets.xml
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.dll
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.pdb
+C:\Users\OACLIENT1\Desktop\odev\son2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.genruntimeconfig.cache
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Connected Services\ServiceReference1\ConnectedService.json
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.local.json
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.StaticWebAssets.xml
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.exe
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.deps.json
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.runtimeconfig.json
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.runtimeconfig.dev.json
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.pdb
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.Views.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.Views.pdb
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Net.Http.WinHttpHandler.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.Duplex.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.Http.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.NetTcp.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.Primitives.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.Security.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Net.Http.WinHttpHandler.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win7\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.csprojAssemblyReference.cache
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.AssemblyInfoInputs.cache
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.AssemblyInfo.cs
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.csproj.CoreCompileInputs.cache
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorAssemblyInfo.cache
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorAssemblyInfo.cs
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.TagHelpers.input.cache
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.TagHelpers.output.cache
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorCoreGenerate.cache
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Seferler.cshtml.g.cs
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorTargetAssemblyInfo.cache
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorTargetAssemblyInfo.cs
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.Views.pdb
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.csproj.CopyComplete
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\staticwebassets\Biletall.Web.StaticWebAssets.Manifest.cache
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\staticwebassets\Biletall.Web.StaticWebAssets.xml
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.dll
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.pdb
+C:\Users\elber\Desktop\odev\calısma gunluk\2\Biletall2\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.genruntimeconfig.cache
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.pdb
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Connected Services\ServiceReference1\ConnectedService.json
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.local.json
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.StaticWebAssets.xml
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.exe
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.deps.json
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.runtimeconfig.json
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.runtimeconfig.dev.json
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.pdb
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.Views.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.Views.pdb
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Net.Http.WinHttpHandler.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.Duplex.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.Http.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.NetTcp.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.Primitives.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.Security.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Net.Http.WinHttpHandler.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win7\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.csprojAssemblyReference.cache
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.AssemblyInfoInputs.cache
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.AssemblyInfo.cs
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.csproj.CoreCompileInputs.cache
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorAssemblyInfo.cache
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorAssemblyInfo.cs
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.TagHelpers.input.cache
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.TagHelpers.output.cache
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorCoreGenerate.cache
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Seferler.cshtml.g.cs
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorTargetAssemblyInfo.cache
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorTargetAssemblyInfo.cs
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.Views.pdb
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.csproj.CopyComplete
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\staticwebassets\Biletall.Web.StaticWebAssets.Manifest.cache
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\staticwebassets\Biletall.Web.StaticWebAssets.xml
+C:\Users\Casper\Desktop\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.genruntimeconfig.cache
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Connected Services\ServiceReference1\ConnectedService.json
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.local.json
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.StaticWebAssets.xml
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.exe
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.deps.json
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.runtimeconfig.json
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.runtimeconfig.dev.json
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.pdb
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.Views.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Biletall.Web.Views.pdb
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Private.ServiceModel.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.Duplex.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.Http.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.NetTcp.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.Primitives.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\System.ServiceModel.Security.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.AssemblyInfoInputs.cache
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.AssemblyInfo.cs
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.csproj.CoreCompileInputs.cache
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorAssemblyInfo.cache
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorAssemblyInfo.cs
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.TagHelpers.input.cache
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.TagHelpers.output.cache
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorCoreGenerate.cache
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Seferler.cshtml.g.cs
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorTargetAssemblyInfo.cache
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.RazorTargetAssemblyInfo.cs
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.Views.pdb
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.csproj.CopyComplete
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\staticwebassets\Biletall.Web.StaticWebAssets.Manifest.cache
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\staticwebassets\Biletall.Web.StaticWebAssets.xml
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.dll
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.pdb
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.genruntimeconfig.cache
+C:\Users\Celal\Desktop\celal\Biletall\Biletall\Biletall.Web\obj\Debug\netcoreapp3.1\Biletall.Web.csprojAssemblyReference.cache

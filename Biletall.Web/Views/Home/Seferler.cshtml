@@ -1,0 +1,497 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    string nereden = ViewBag.Nereden;
+    string nereye = ViewBag.Nereye;
+    DateTime tarih = ViewBag.Tarih;
+    bool ucluFiltre = !ViewBag.UcluKoltukFiltre;
+    bool ikiliFiltre = !ViewBag.IkiliKoltukFiltre;
+
+    string ucluFiltreBorder = ViewBag.UcluKoltukFiltre ? "red" : "";
+    string ikiliFiltreBorder = ViewBag.IkiliKoltukFiltre ? "red" : "";
+}
+<link href="~/lib/font-awesome/css/biletall.css" rel="stylesheet" />
+
+
+@{
+    List<Sefer> list = (List<Sefer>)ViewData["Seferler"];
+}
+<a class="btn btn-light" href="@Url.Action("Seferler", "Home", new { nereden = nereden,nereye=nereye,tarih=tarih,tariheGoreSirala = true }) ">
+    <span>Saate Göre Sırala</span>
+</a>
+<a class="btn btn-light" href="@Url.Action("Seferler", "Home", new { nereden = nereden,nereye=nereye,tarih=tarih,fiyataGoreSırala = true })">
+    <span>Fiyata Göre Sırala</span>
+</a>
+
+<a class="btn btn-light" style=" float:right; border-color:@ikiliFiltreBorder" href="@Url.Action("Seferler", "Home", new { nereden = nereden,nereye=nereye,tarih=tarih,ikiliKoltukFiltre = ikiliFiltre }) ">
+    <i class="fas fa-couch"></i> <span>1+1</span>
+</a>
+<a class="btn btn-light" style=" float:right; border-color:@ucluFiltreBorder " href="@Url.Action("Seferler", "Home", new { nereden = nereden,nereye=nereye,tarih=tarih,ucluKoltukFiltre = ucluFiltre })">
+    <i class="fas fa-couch"></i>
+    <span>2+1</span>
+</a>
+<br />
+<br />
+<div class="unselected-bus">
+
+    @foreach (Sefer sefer in list)
+    {
+        <div class="bus-list-item common-journey-item">
+            <div class="bus-list-inner">
+                <div class="top-details">
+
+                    <div class="row">
+                        <div class="col-">
+                            <div class="logo">@sefer.FirmaAdi</div>
+                        </div>
+                        <div class="col-2">
+
+                            <div class="time">
+                                <h3>@sefer.KalkisSaati</h3>
+                            </div>
+                            <div class="duration">
+                                <h5><span class="icon-sure"></span> @sefer.YaklasikSeyahatSuresi saat</h5>
+                            </div>
+
+                        </div>
+                        <div class="col-2">
+                            <div class="slot-one">
+                                <div class="distination guzergahGetir" onclick="javascript:GuzergahGetir(0,1)"><b>@sefer.KalkisNokta</b> <i class="icon-chevron-right" style="vertical-align: text-bottom;"></i> <b>@sefer.VarisNokta</b></div>
+                            </div>
+                        </div>
+                        <div class="col-1">
+                            <div class="seat ">@sefer.OtobusKoltukYerlesimTipi<img src="https://biletall-cdn.mncdn.com/img-v7/ortak/ikonlar/bos_koltuk.svg" style="width:15px;"></div>
+                        </div>
+                        <div class="col-3">
+
+                            <div class="slot-tow">
+                                <div class="arrangement">
+                                    <div class="feature">
+
+                                        @if (sefer.OTipOzellik[0] == '1')
+                                        {
+                                            //internet
+                                            <i class="fas fa-wifi" data-toggle="tooltip" data-placement="top" title="İnternet"></i>
+                                        }
+                                        @if (sefer.OTipOzellik[1] == '1')
+                                        {
+                                            //rahat koltuk
+                                            <i class="fas fa-couch" data-toggle="tooltip" data-placement="top" title="Rahat Koltuk"></i>
+                                        }
+                                        @if (sefer.OTipOzellik[2] == '1')
+                                        {
+                                            //Koltuk Ekranı (Uydu Yayını)
+                                            <i class="fas fa-tv" data-toggle="tooltip" data-placement="top" title="Koltuk Ekranı (Uydu Yayını)"></i>
+                                        }
+                                        @if (sefer.OTipOzellik[3] == '1')
+                                        {
+                                            //wc
+                                            <i class="fas fa-toilet" data-toggle="tooltip" data-placement="top" title="WC"></i>
+                                        }
+                                        @if (sefer.OTipOzellik[4] == '1')
+                                        {
+                                            //koltuk ekrani
+                                            <i class="fas fa-tv" data-toggle="tooltip" data-placement="top" title="TV (Genel)"></i>
+                                        }
+                                        @if (sefer.OTipOzellik[5] == '1')
+                                        {
+                                            //digiturk
+                                            <i class="fas fa-satellite" data-toggle="tooltip" data-placement="top" title="Digiturk"></i>
+                                        }
+                                        @if (sefer.OTipOzellik[6] == '1')
+                                        {
+                                            //kulaklik
+                                            <i class="fas fa-headphones" data-toggle="tooltip" data-placement="top" title="Kulaklık"></i>
+                                        }
+                                        @if (sefer.OTipOzellik[7] == '1')
+                                        {
+                                            //kulaklik
+                                            <i class="fas fa-music" data-toggle="tooltip" data-placement="top" title="Müzik Yayını (Genel)"></i>
+                                        }
+                                        @if (sefer.OTipOzellik[8] == '1')
+                                        {
+                                            //muzik
+                                            <i class="fas fa-music" data-toggle="tooltip" data-placement="top" title="Müzik Yayını (Koltuk)"></i>
+                                        }
+                                        @if (sefer.OTipOzellik[9] == '1')
+                                        {
+                                            //cep tel
+                                            <i class="fas fa-mobile" data-toggle="tooltip" data-placement="top" title="Cep Telefonu Serbest"></i>
+                                        }
+                                        @if (sefer.OTipOzellik[10] == '1')
+                                        {
+                                            //priz
+                                            <i class="fas fa-plug" data-toggle="tooltip" data-placement="top" title="220 Volt Priz"></i>
+                                        }
+                                        @if (sefer.OTipOzellik[11] == '1')
+                                        {
+                                            //koltuk ekrani
+                                            <i class="fas fa-tv" data-toggle="tooltip" data-placement="top" title="Koltuk Ekranı (MIT)"></i>
+                                        }
+                                        @if (sefer.OTipOzellik[12] == '1')
+                                        {
+                                            //namaz
+                                            <i class="fas fa-mosque" data-toggle="tooltip" data-placement="top" title=">Namaz Vakitlerinde Durur"></i>
+                                        }
+                                        @if (sefer.OTipOzellik[13] == '1')
+                                        {
+                                            //ligtv
+                                            <i class="fas fa-satellite" data-toggle="tooltip" data-placement="top" title="LigTV"></i>
+                                        }
+                                        @if (sefer.OTipOzellik[14] == '1')
+                                        {
+                                            //ligtv
+                                            <i class="fas fa-tv" data-toggle="tooltip" data-placement="top" title="Koltuk Ekranı (10 inç)"></i>
+                                        }
+                                        @if (sefer.OTipOzellik[15] == '1')
+                                        {
+                                            //tv
+                                            <i class="fas fa-lightbulb" data-toggle="tooltip" data-placement="top" title="Okuma Lambası"></i>
+                                        }
+                                        @if (sefer.OTipOzellik[16] == '1')
+                                        {
+                                            //radio
+                                            <i class="fas fa-radio" data-toggle="tooltip" data-placement="top" title="Radyo (Kişisel)"></i>
+                                        }
+                                        @if (sefer.OTipOzellik[17] == '1')
+                                        {
+                                            //tv
+                                            <i class="fas fa-tv" data-toggle="tooltip" data-placement="top" title="Koltuk Ekranı (13 inç)"></i>
+                                        }
+                                        @if (sefer.OTipOzellik[18] == '1')
+                                        {
+                                            //usb
+                                            <i class="fab fa-usb" data-toggle="tooltip" data-placement="top" title="USB Giriş"></i>
+                                        }
+                                        @if (sefer.OTipOzellik[19] == '1')
+                                        {
+                                            //kahvalti
+                                            <i class="fas fa-hamburger" data-toggle="tooltip" data-placement="top" title="Kahvaltı"></i>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1">
+                            <div class="price-sec">
+                                <div class="seat-price">
+                                    <h3>  @sefer.BiletFiyatiInternet<span> TL</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="control-sec">
+
+                                @*<a href="javascript:void(0)" class="btn btn-danger">Koltuk Seç</a>*@
+                                <button data-id="@sefer.ID" data-no="@sefer.SeferTakipNo" type="button" class="btn btn-danger select-seat">
+                                    Koltuk Seç
+                                </button>
+                                <br />
+                                <button type="button" class="open-details link" data-toggle="modal" data-target="#modal-@sefer.ID">
+                                    Detayları Göster
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="expand-details expand-details-@sefer.ID" style="display:none">
+                    <div class="bus-selection-part">
+                        <div class="bus-section-header">
+                            <div class="gender-wrap">
+                                <div class="ba-radio-grup">
+                                    <div class="women redio-control">
+                                        <img class="kadin-all" src="https://biletall-cdn.mncdn.com/img-v7/ortak/female.svg?v=20392" alt="">
+                                        <input name="gender-3-0" type="radio" id="radio-kadin-3-0" class="radio-kadin" data-cinsiyet="1">
+                                        <label class="radio-kadin seat-text" for="radio-kadin-3-0"></label>
+                                        Kadın
+                                        <img class="kadin-split" src="https://biletall-cdn.mncdn.com/img-v7/ortak/female.svg?v=20392" alt="">
+                                    </div>
+                                    <div class="men redio-control">
+                                        <img src="https://biletall-cdn.mncdn.com/img-v7/ortak/male.svg?v=20392" alt="">
+                                        <input name="gender-3-0" type="radio" id="radio-erkek-3-0" class="radio-erkek" data-cinsiyet="2">
+                                        <label class="radio-erkek seat-text" for="radio-erkek-3-0"></label>
+                                        Erkek
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="empty-seat-index">
+                                <span class="icon-boskoltuk">
+
+                                </span> Boş Koltuk
+                            </div>
+                        </div>
+                        <div class="bus-select-wrapper">
+                            <div id="bus-@sefer.ID"></div>
+                            <!--<div class="bus-section-outer">
+                                <div class="bus-section" style="width: 750px;">
+                                    <div class="otobus-on">
+                                        <img src="https://biletall-cdn.mncdn.com/img-v7/desktop/vendor-images/on_yeni.svg">
+                                    </div>
+                                    <div class="otobus-orta">
+                                        <div class="koltuk-sira">
+
+                                            <a class="koltuk unavailable" seat="4" koltukindex="4" koltukfiyat="30">
+                                                <span>4</span><img src="https://biletall-cdn.mncdn.com/img-v7/ortak/bay_dolu.svg">
+                                            </a>
+
+                                            <a class="koltuk available"-->
+                            @*onclick="javascript:koltukSec(0,5,40);"*@
+                            <!--seat="40" koltukindex="54" koltukfiyat="30">
+                                                <span>40</span>
+                                                <img src="https://biletall-cdn.mncdn.com/img-v7/ortak/ikonlar/bos_koltuk.svg">
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="otobus-arka"><img src="https://biletall-cdn.mncdn.com/img-v7/desktop/vendor-images/arka_yeni.svg"></div>
+                                </div>
+                            </div>-->
+
+                        </div>
+                        <div class="bus-section-footer">
+                            <div class="upper-slot">
+                                <div class="not-select-msg">
+                                    <p><i class="icon-info-flash"></i><span>Henüz koltuk seçmediniz.</span></p>
+                                </div>
+                                <div class="selected-seat" style="display: none">
+                                    <div class="selected-seat-head"></div>
+                                    <div class="selected-seat-list">
+                                        <div class="col-list-seat">
+                                            <div class="gird-seat-list"></div>
+                                            <div class="gird-seat-list"></div>
+                                            <div class="gird-seat-list"></div>
+                                        </div>
+                                        <div class="col-list-seat">
+                                            <div class="gird-seat-list"></div>
+                                            <div class="gird-seat-list"></div>
+                                            <div class="gird-seat-list"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="middle-slot">
+                                <a href="javascript:void(0)" class="btn total-btn grey deactive_link"><span>Toplam <strong>0<i> TL</i></strong></span> <span>Devam Et</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="modal-@sefer.ID" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Sefer Detayi <br /> @sefer.FirmaAdi - @sefer.KalkisSaati - @sefer.BiletFiyatiInternet TL <br /> @sefer.KalkisNokta > @sefer.VarisNokta</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+
+                                    <div class="col-12">
+                                        <span class="th" style="padding: 0">Otobüsün Özellikleri</span>
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    @if (sefer.OTipOzellik[0] == '1')
+                                    {
+                                        //internet
+                                        <div class="col-6">
+                                            <i class="fas fa-wifi"></i>
+                                            <span>İnternet</span>
+                                        </div>
+                                    }
+                                    @if (sefer.OTipOzellik[1] == '1')
+                                    {
+                                        //rahat koltuk
+                                        <div class="col-6"><i class="fas fa-couch"></i><span>Rahat Koltuk</span></div>
+                                    }
+                                    @if (sefer.OTipOzellik[2] == '1')
+                                    {
+                                        //tv
+                                        <div class="col-6">
+                                            <i class="fas fa-tv"></i><span>
+                                                Koltuk Ekranı (Uydu Yayını)
+                                            </span>
+                                        </div>
+                                    }
+                                    @if (sefer.OTipOzellik[3] == '1')
+                                    {
+                                        //wc
+                                        <div class="col-6"><i class="fas fa-toilet"></i><span>WC</span></div>
+
+                                    }
+                                    @if (sefer.OTipOzellik[4] == '1')
+                                    {
+                                        //koltuk ekrani
+                                        <div class="col-6"><i class="fas fa-tv"></i><span>Koltuk Ekranı </span></div>
+                                    }
+                                    @if (sefer.OTipOzellik[5] == '1')
+                                    {
+                                        //digiturk
+                                        <div class="col-6"><i class="fas fa-satellite"></i><span>Digiturk</span></div>
+                                    }
+                                    @if (sefer.OTipOzellik[6] == '1')
+                                    {
+                                        //kulaklik
+                                        <div class="col-6"><i class="fas fa-headphones"></i><span>Kulaklık</span></div>
+                                    }
+                                    @if (sefer.OTipOzellik[7] == '1')
+                                    {
+                                        //müzik
+                                        <div class="col-6"><i class="fas fa-music"></i><span>Müzik Yayını (Genel)</span></div>
+                                    }
+                                    @if (sefer.OTipOzellik[8] == '1')
+                                    {
+                                        //muzik
+                                        <div class="col-6"><i class="fas fa-music"></i><span>Müzik Yayını (Koltuk)</span></div>
+                                    }
+                                    @if (sefer.OTipOzellik[9] == '1')
+                                    {
+                                        //cep tel
+                                        <div class="col-6"><i class="fas fa-mobile"></i><span>Cep Telefonu (Serbest)</span></div>
+                                    }
+                                    @if (sefer.OTipOzellik[10] == '1')
+                                    {
+                                        //priz
+                                        <div class="col-6">
+                                            <i class="fas fa-plug"></i>
+                                            <span>220 Volt Priz</span>
+                                        </div>
+                                    }
+                                    @if (sefer.OTipOzellik[11] == '1')
+                                    {
+                                        //koltuk ekrani
+                                        <div class="col-6"><i class="fas fa-tv"></i><span>Koltuk Ekranı (MIT) </span></div>
+                                    }
+                                    @if (sefer.OTipOzellik[12] == '1')
+                                    {
+                                        //namaz
+                                        <div class="col-6"><i class="fas fa-mosque"></i><span>Namaz Vakitlerinde Durur</span></div>
+                                    }
+                                    @if (sefer.OTipOzellik[13] == '1')
+                                    {
+                                        //ligtv
+                                        <div class="col-6"><i class="fas fa-satellite"></i><span>LigTV</span></div>
+                                    }
+                                    @if (sefer.OTipOzellik[14] == '1')
+                                    {
+                                        //ligtv
+                                        <div class="col-6"><i class="fas fa-tv"></i><span>Koltuk Ekranı (10 inç)</span></div>
+                                    }
+
+                                    @if (sefer.OTipOzellik[15] == '1')
+                                    {
+                                        //tv
+                                        <div class="col-6"><i class="fas fa-lightbulb"></i><span>Okuma Lambası </span></div>
+                                    }
+                                    @if (sefer.OTipOzellik[16] == '1')
+                                    {
+                                        //radio
+                                        <div class="col-6"><i class="fas fa-radio"></i><span>Radyo (Kişisel)</span></div>
+                                    }
+                                    @if (sefer.OTipOzellik[17] == '1')
+                                    {
+                                        //tv
+                                        <div class="col-6"><i class="fas fa-tv"></i><span>Koltuk Ekranı (13 inç) </span></div>
+                                    }
+                                    @if (sefer.OTipOzellik[18] == '1')
+                                    {
+                                        //tv
+                                        <div class="col-6"><i class="fab fa-usb"></i><span>USB Giriş </span></div>
+                                    }
+                                    @if (sefer.OTipOzellik[19] == '1')
+                                    {
+                                        //kahvalti
+                                        <div class="col-6"><i class="fas fa-hamburger"></i><span>Kahvalti</span></div>
+
+                                    }
+
+                                </div>
+                                <hr>
+                                <span class="th">@sefer.KalkisNokta > @sefer.VarisNokta</span>
+                                <div class="row">
+                                    <div class="col-sm-8"><b>Kalkış Noktası Adı</b></div>
+                                    <div class="col-sm-4"><b>Kalkış Saati</b></div>
+                                    @foreach (var guzergah in sefer.Guzergahlar)
+                                    {
+                                        <div class="col-sm-8">@guzergah.VarisYeri</div><div class="col-sm-4">@guzergah.KalkisTarihSaat</div>
+
+                                    }
+
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+</div>
+@section Scripts
+{
+    <script>
+        $(document).ready(function () {
+            $(document).on("click", ".select-seat", function () {
+                var id = $(this).data("id");
+                var no = $(this).data("no");
+                $.ajax({
+                    type: 'GET',
+                    url: '/Sefer/KoltukBilgisi?seferReferans=' + no,
+                    success: function (response) {
+                        console.log(response.data);
+                        $(".expand-details-" + id).css('display', 'block');
+
+                        var dataHtml = "";
+                        $.each(response.data, function (i, item) {
+                            if (item.koltukNo == -1) {
+
+                            }
+                            else {
+
+                                if (item.durum == 0) {
+
+                                    dataHtml += "<div><img src='https://biletall-cdn.mncdn.com/img-v7/ortak/ikonlar/bos_koltuk.svg'></div>"
+                                }
+                                else if (item.durum == 1) {
+                                    dataHtml += "<div>Bayana satılmış</div>"
+                                }
+                            }
+
+                        });
+                        var html = ''
+                            + '<div class="bus-section-outer"> '
+                            + '                                <div class="bus-section" style="width: 750px;"> '
+                            + '                                    <div class="otobus-on"> '
+                            + '                                        <img src="https://biletall-cdn.mncdn.com/img-v7/desktop/vendor-images/on_yeni.svg"> '
+                            + '                                    </div><div class="otobus-orta">'
+                            + '                                        <div class="koltuk-sira"> '
+                            + dataHtml
+                            + ' '
+                            + '                                        </div> '
+                            + '                                    </div><div class="otobus-arka"><img src="https://biletall-cdn.mncdn.com/img-v7/desktop/vendor-images/arka_yeni.svg"></div>'
+                            + '                                </div> '
+                            + '                            </div>';
+
+                        $("#bus-" + id).html(html);
+                    },
+                    error: function (err) {
+                        console.error(err);
+                    }
+                });
+            });
+        });
+
+    </script>
+}
+
+
+
+
