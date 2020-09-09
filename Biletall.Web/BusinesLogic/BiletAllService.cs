@@ -1,4 +1,5 @@
-﻿using Biletall.Web.Models;
+﻿using Biletall.Web.Controllers;
+using Biletall.Web.Models;
 using ServiceReference1;
 using System;
 using System.Collections.Generic;
@@ -50,6 +51,7 @@ namespace Biletall.Web.BusinesLogic
             }
             return list;
         }
+
         public static List<Sefer> SeferleriGetir(string nereden, string nereye, DateTime tarih)
         {
             XmlIsletRequestBody xirb = new XmlIsletRequestBody();
@@ -90,7 +92,9 @@ namespace Biletall.Web.BusinesLogic
 
                         SeferTakipNo = xn["SeferTakipNo"].InnerText,
                     };
+
                     sfr.Guzergahlar = GuzergahlariGetir(nereden, nereye, tarih, sfr.SeferTakipNo);
+
                     DateTime ss;
                     sfr.KalkisSaati = DateTime.TryParse(xn["Saat"].InnerText, out ss) ? ss.Hour.ToString() + ":" + ss.Minute.ToString("00") : "";
 
@@ -157,7 +161,7 @@ namespace Biletall.Web.BusinesLogic
             }
 
         }
-       
+
         public static List<Koltuk> KoltukBilgisiAl(string seferReferans)
         {
             List<Koltuk> koltuklar = new List<Koltuk>();
@@ -168,7 +172,7 @@ namespace Biletall.Web.BusinesLogic
 
             XmlDocument requestXml = new XmlDocument();
             requestXml.LoadXml(@"<Otobus>
-                                     <FirmaNo>0</FirmaNo>
+                                     <FirmaNo>37</FirmaNo>
                                      <KalkisNoktaID>738</KalkisNoktaID>
                                      <VarisNoktaID>84</VarisNoktaID>
                                      <Tarih>2018-12-09</Tarih>
@@ -194,9 +198,54 @@ namespace Biletall.Web.BusinesLogic
                     KoltukFiyatiInternet = nodeKoltuk["KoltukFiyatiInternet"].InnerText
                 });
             }
+
+
             return koltuklar;
         }
+        public static List<IslemPnr> IslemRezervasyon(string islem)
+        {
 
+
+            List<IslemPnr> islemler = new List<IslemPnr>();
+            XmlIsletRequestBody isletRequestBody = new XmlIsletRequestBody();
+            XmlDocument xml = new XmlDocument();
+            xml.LoadXml("<Kullanici><Adi>stajyerWS</Adi><Sifre>2324423WSs099</Sifre></Kullanici>");
+            isletRequestBody.xmlYetki = xml.DocumentElement;
+
+            XmlDocument requestXml = new XmlDocument();
+            requestXml.LoadXml(@"<IslemRezervasyon>
+                                     <FirmaNo>37</FirmaNo>
+                                     <KalkisNoktaID>738</KalkisNoktaID>
+                                     <VarisNoktaID>84</VarisNoktaID>
+                                     <Tarih>2018-12-09</Tarih>
+                                     <Saat>1900-01-01T02:30:00+02:00</Saat>
+                                     <HatNo>1</HatNo>
+                                     <IslemTipi>0</IslemTipi>
+                                     <SeferTakipNo>" + islem + @"</SeferTakipNo>
+                                     <KoltukNo1>5</KoltukNo1>
+                                     <Adi1>AHMET</Adi1>
+                                     <Soyadi1>AKYOL</Soyadi1>
+                                     <TcKimlikNo1>16285391016</TcKimlikNo1>
+                                     <ServisYeriKalkis1>ANAYURT 2</ServisYeriKalkis1>
+                                     <TelefonNo>5421111110</TelefonNo>
+                                     <Cinsiyet>2</Cinsiyet>
+
+                                  </IslemRezervasyon>");
+            isletRequestBody.xmlIslem = requestXml.DocumentElement;
+            var service = new ServiceSoapClient(ServiceSoapClient.EndpointConfiguration.ServiceSoap)
+               .XmlIslet(isletRequestBody.xmlIslem, isletRequestBody.xmlYetki);
+            XmlNodeList nodeIslemList = service.SelectNodes("/IslemSonuc");
+            foreach (XmlNode nodeIslem in nodeIslemList)
+            {
+                islemler.Add(new IslemPnr
+                {
+                    Pnr = nodeIslem["PNR"].InnerText
+
+                });
+            }
+
+            return islemler;
+        }
 
     }
 }

@@ -19,5 +19,8 @@ namespace Biletall.Web.Models
         public List<Guzergah> Guzergahlar { get; set; }
         public string SeferTakipNo { get; set; }
 
+        
+
+
     }
 }

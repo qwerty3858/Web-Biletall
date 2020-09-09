@@ -1,0 +1,331 @@
+﻿
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/lib/font-awesome/css/biletall.css" rel="stylesheet" />
+    <link href="~/lib/font-awesome/css/biletall.css" rel="stylesheet" />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        /* label color */
+        .input-field label {
+            color: #000;
+        }
+        /* label focus color */
+        .input-field input[type=text]:focus + label {
+            color: #000;
+        }
+        /* label underline focus color */
+        .input-field input[type=text]:focus {
+            border-bottom: 1px solid #000;
+            box-shadow: 0 1px 0 0 #000;
+        }
+        /* valid color */
+        .input-field input[type=text].valid {
+            border-bottom: 1px solid #000;
+            box-shadow: 0 1px 0 0 #000;
+        }
+        /* invalid color */
+        .input-field input[type=text].invalid {
+            border-bottom: 1px solid #000;
+            box-shadow: 0 1px 0 0 #000;
+        }
+        /* icon prefix focus color */
+        .input-field .prefix.active {
+            color: #000;
+        }
+
+        .iletisim-back {
+            background-color: #F5F5F5;
+        }
+
+        .up {
+            margin-top: 10px;
+        }
+
+        .master {
+            border: 1px solid black;
+        }
+        /*Firefox*/
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+        /*Chrome*/
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+    </style>
+</head>
+
+@{
+    List<Sefer> list = (List<Sefer>)ViewData["Seferler"];
+    List<MusteriViewModel> list2 = (List<MusteriViewModel>)TempData["values2"];
+}
+<body>
+
+    <h6><i class="material-icons prefix">directions_subway </i><i> Sefer Bilgileri</i></h6>
+    @*@foreach (Sefer sefer in list)
+    {
+        @foreach (MusteriViewModel sefer2 in list2)
+        {
+            @if (sefer.ID == sefer2.SeferId)
+            {
+                <div class="bus-list-inner">
+                    <div class="top-details">
+
+                        <div class="row">
+                            <div class="col-2">
+                                <div class="logo">@sefer.FirmaAdi</div>
+                            </div>
+                            <div class="col-2">
+
+                                <div class="time">
+                                    <h3>@sefer.KalkisSaati</h3>
+                                </div>
+                                <div class="duration">
+                                    <h5><span class="icon-sure"></span> @sefer.YaklasikSeyahatSuresi saat</h5>
+                                </div>
+
+                            </div>
+                            <div class="col-3">
+                                <div class="slot-one">
+                                    <div class="distination guzergahGetir" onclick="javascript:GuzergahGetir(0,1)"><b>@sefer.KalkisNokta</b> <i class="icon-chevron-right" style="vertical-align: text-bottom;"></i> <b>@sefer.VarisNokta</b></div>
+
+                                </div>
+                            </div>
+                            <div class="col-1">
+                                <div class="seat ">@sefer.OtobusKoltukYerlesimTipi<img src="https://biletall-cdn.mncdn.com/img-v7/ortak/ikonlar/bos_koltuk.svg" style="width:15px;"></div>
+                            </div>
+                            <div class="col-3">
+
+                                <div class="slot-tow">
+                                    <div class="arrangement">
+                                        <div class="feature">
+
+                                            @if (sefer.OTipOzellik[0] == '1')
+                                            {
+                                                //internet
+                                                <i class="fas fa-wifi" data-toggle="tooltip" data-placement="top" title="İnternet"></i>
+                                            }
+                                            @if (sefer.OTipOzellik[1] == '1')
+                                            {
+                                                //rahat koltuk
+                                                <i class="fas fa-couch" data-toggle="tooltip" data-placement="top" title="Rahat Koltuk"></i>
+                                            }
+                                            @if (sefer.OTipOzellik[2] == '1')
+                                            {
+                                                //Koltuk Ekranı (Uydu Yayını)
+                                                <i class="fas fa-tv" data-toggle="tooltip" data-placement="top" title="Koltuk Ekranı (Uydu Yayını)"></i>
+                                            }
+                                            @if (sefer.OTipOzellik[3] == '1')
+                                            {
+                                                //wc
+                                                <i class="fas fa-toilet" data-toggle="tooltip" data-placement="top" title="WC"></i>
+                                            }
+                                            @if (sefer.OTipOzellik[4] == '1')
+                                            {
+                                                //koltuk ekrani
+                                                <i class="fas fa-tv" data-toggle="tooltip" data-placement="top" title="TV (Genel)"></i>
+                                            }
+                                            @if (sefer.OTipOzellik[5] == '1')
+                                            {
+                                                //digiturk
+                                                <i class="fas fa-satellite" data-toggle="tooltip" data-placement="top" title="Digiturk"></i>
+                                            }
+                                            @if (sefer.OTipOzellik[6] == '1')
+                                            {
+                                                //kulaklik
+                                                <i class="fas fa-headphones" data-toggle="tooltip" data-placement="top" title="Kulaklık"></i>
+                                            }
+                                            @if (sefer.OTipOzellik[7] == '1')
+                                            {
+                                                //kulaklik
+                                                <i class="fas fa-music" data-toggle="tooltip" data-placement="top" title="Müzik Yayını (Genel)"></i>
+                                            }
+                                            @if (sefer.OTipOzellik[8] == '1')
+                                            {
+                                                //muzik
+                                                <i class="fas fa-music" data-toggle="tooltip" data-placement="top" title="Müzik Yayını (Koltuk)"></i>
+                                            }
+                                            @if (sefer.OTipOzellik[9] == '1')
+                                            {
+                                                //cep tel
+                                                <i class="fas fa-mobile" data-toggle="tooltip" data-placement="top" title="Cep Telefonu Serbest"></i>
+                                            }
+                                            @if (sefer.OTipOzellik[10] == '1')
+                                            {
+                                                //priz
+                                                <i class="fas fa-plug" data-toggle="tooltip" data-placement="top" title="220 Volt Priz"></i>
+                                            }
+                                            @if (sefer.OTipOzellik[11] == '1')
+                                            {
+                                                //koltuk ekrani
+                                                <i class="fas fa-tv" data-toggle="tooltip" data-placement="top" title="Koltuk Ekranı (MIT)"></i>
+                                            }
+                                            @if (sefer.OTipOzellik[12] == '1')
+                                            {
+                                                //namaz
+                                                <i class="fas fa-mosque" data-toggle="tooltip" data-placement="top" title=">Namaz Vakitlerinde Durur"></i>
+                                            }
+                                            @if (sefer.OTipOzellik[13] == '1')
+                                            {
+                                                //ligtv
+                                                <i class="fas fa-satellite" data-toggle="tooltip" data-placement="top" title="LigTV"></i>
+                                            }
+                                            @if (sefer.OTipOzellik[14] == '1')
+                                            {
+                                                //ligtv
+                                                <i class="fas fa-tv" data-toggle="tooltip" data-placement="top" title="Koltuk Ekranı (10 inç)"></i>
+                                            }
+                                            @if (sefer.OTipOzellik[15] == '1')
+                                            {
+                                                //tv
+                                                <i class="fas fa-lightbulb" data-toggle="tooltip" data-placement="top" title="Okuma Lambası"></i>
+                                            }
+                                            @if (sefer.OTipOzellik[16] == '1')
+                                            {
+                                                //radio
+                                                <i class="fas fa-radio" data-toggle="tooltip" data-placement="top" title="Radyo (Kişisel)"></i>
+                                            }
+                                            @if (sefer.OTipOzellik[17] == '1')
+                                            {
+                                                //tv
+                                                <i class="fas fa-tv" data-toggle="tooltip" data-placement="top" title="Koltuk Ekranı (13 inç)"></i>
+                                            }
+                                            @if (sefer.OTipOzellik[18] == '1')
+                                            {
+                                                //usb
+                                                <i class="fab fa-usb" data-toggle="tooltip" data-placement="top" title="USB Giriş"></i>
+                                            }
+                                            @if (sefer.OTipOzellik[19] == '1')
+                                            {
+                                                //kahvalti
+                                                <i class="fas fa-hamburger" data-toggle="tooltip" data-placement="top" title="Kahvaltı"></i>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-1">
+                                <div class="price-sec">
+                                    <div class="seat-price">
+                                        <h3>  @sefer.BiletFiyatiInternet<span> TL</span></h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            }
+    }
+
+
+
+    }*@
+
+    <h6><i class="material-icons prefix">transfer_within_a_station </i><i> Yolcu Bilgileri</i></h6>
+
+    <div class="master">
+        <div class="row">
+            <form class="col s12" id="postForm">
+                <div class="row up">
+                    <div class="input-field col s3">
+                        
+                            <h6>Yolcu()</h6>
+                            <div class="input-field col s3">
+                                <input placeholder="Adınız" id="first_name" type="text" class="validate" required>
+                                <label for="first_name">Ad</label>
+                            </div>
+                            <div class="input-field col s3">
+                                <input placeholder="Soyadınız" id="last_name" type="text" class="validate" required>
+                                <label for="last_name">Soyad</label>
+                            </div>
+                            <div class="input-field col s3">
+                                <input type="text" onkeypress="return isNumberKey(event)" name="tc" id="tc" class="validate" placeholder="TC Kimlik No" maxlength="11" required>
+                                <label for="tc">TC Kimlik Numarası</label>
+                                <i class="tc-group" style="font-size: 12px;">(Karayolu Taşıma Yönetmeliğince Gereklidir.)</i>
+                                <span class="helper-text" data-error="Lütfen TC Kimlik No alanını doğru giriniz." data-success="Başarılı"></span>
+                            </div>
+                        
+
+                    </div>
+
+                </div>
+                <div class="iletisim-back">
+                    <div class="row ">
+                        <div class="input-field col s4">
+                            <i class="material-icons prefix" style="margin-left:10px;">contact_phone</i>
+                            <label for="icon_telephone" style="margin-left:50px; font-size:20px;"><i>İletişim Bilgileri</i></label>
+                        </div>
+                        <div class="input-field col s4">
+                            <input placeholder="E-mail" id="email" type="email" class="validate" required>
+                            <label for="email">Email</label>
+                            <span class="helper-text" data-error="Lütfen E-mail alanını doğru giriniz." data-success="Başarılı"></span>
+                        </div>
+                        <div class="input-field col s4">
+                            <input type="tel" class="validate" id="phone_number" onkeypress="return isNumberKey(event)" placeholder="5xx-xxx-xxxx" pattern="^\(?[0]?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$" maxlength="12" required>
+                            <label for="phone">Telefon Numarası</label>
+                            <span class="helper-text" data-error="Lütfen Cep Telefonu alanını doğru giriniz." data-success="Başarılı"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group col-md-6">
+                    <button id="btnSave" type="submit" class="btn btn-primary">Gönder</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+    <script>
+
+        function isNumberKey(evt) {
+            var charCode = (evt.which) ? evt.which : event.keyCode;
+            if (charCode > 31 && (charCode < 48 || charCode > 57))
+                return false;
+            return true;
+        }
+
+        $("#postForm").submit(function (e) {
+            e.preventDefault();
+            console.log(e);
+            var rezervasyon = {
+
+                Name: $('#first_name').val(),
+                Surname: $('#last_name').val(),
+                Mail: $('#email').val(),
+                PhoneNumber: $('#phone_number').val(),
+                Tc: $('#tc').val()
+            }
+            console.log(rezervasyon);
+            var myJSON = JSON.stringify(rezervasyon);
+            $.ajax({
+                url: 'https://localhost:44326/api/Rezervasyons',
+                type: 'POST',
+                contentType: "application/json; charset=utf-8",
+                data: myJSON,
+                success: function (gelenveri) {
+                    alertify.success('Rezervasyonunuz başarıyla eklendi.');
+                    $('input').val("");
+                },
+                error: function (hata) {
+                    alertify.error('Erişim Sağlanamadı.');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

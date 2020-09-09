@@ -59,6 +59,10 @@ namespace Biletall.Web.Controllers
             ViewBag.IkiliKoltukFiltre = ikiliKoltukFiltre;
             //Seferleri getiren servis
             var seferler = BiletAllService.SeferleriGetir(nereden, nereye, tarih);
+            SeferViewModal modal = new SeferViewModal
+            {
+                Seferler = seferler
+            };
             if (tariheGoreSirala)
             {
                 seferler = seferler.OrderBy(n => n.KalkisSaati).ToList();
@@ -79,7 +83,22 @@ namespace Biletall.Web.Controllers
             return View("Seferler");
 
         }
-        
+        [HttpPost]
+        public IActionResult Deneme(string seferId, List<PostData> selectedData)
+        {
+            var seferler2 = TempData["Seferler"];
+            TempData["Seferler2"] = seferler2;
+            
+            
+            
+            MusteriViewModel model = new MusteriViewModel
+            {
+                SeferId = seferId,
+                SelectedData = selectedData
+            };
+            TempData["values"] = model;
+            return RedirectToAction("Index", "Rezervasyon");
+        }
         public IActionResult Privacy()
         {
             return View();
@@ -90,5 +109,8 @@ namespace Biletall.Web.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+
+
     }
 }

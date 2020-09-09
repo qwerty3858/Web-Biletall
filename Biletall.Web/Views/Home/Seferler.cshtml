@@ -15,17 +15,24 @@
 @{
     List<Sefer> list = (List<Sefer>)ViewData["Seferler"];
 }
-<a class="btn btn-light" href="@Url.Action("Seferler", "Home", new { nereden = nereden,nereye=nereye,tarih=tarih,tariheGoreSirala = true }) ">
+<style>
+
+    .resim {
+        cursor: pointer;
+        margin-right: 5px;
+    }
+</style>
+<a class="btn btn-light" href="@Url.Action("Seferler", "Home", new { nereden = nereden, nereye = nereye, tarih = tarih, tariheGoreSirala = true }) ">
     <span>Saate Göre Sırala</span>
 </a>
-<a class="btn btn-light" href="@Url.Action("Seferler", "Home", new { nereden = nereden,nereye=nereye,tarih=tarih,fiyataGoreSırala = true })">
+<a class="btn btn-light" href="@Url.Action("Seferler", "Home", new { nereden = nereden, nereye = nereye, tarih = tarih, fiyataGoreSırala = true })">
     <span>Fiyata Göre Sırala</span>
 </a>
 
-<a class="btn btn-light" style=" float:right; border-color:@ikiliFiltreBorder" href="@Url.Action("Seferler", "Home", new { nereden = nereden,nereye=nereye,tarih=tarih,ikiliKoltukFiltre = ikiliFiltre }) ">
+<a class="btn btn-light" style=" float:right; border-color:@ikiliFiltreBorder" href="@Url.Action("Seferler", "Home", new { nereden = nereden, nereye = nereye, tarih = tarih, ikiliKoltukFiltre = ikiliFiltre }) ">
     <i class="fas fa-couch"></i> <span>1+1</span>
 </a>
-<a class="btn btn-light" style=" float:right; border-color:@ucluFiltreBorder " href="@Url.Action("Seferler", "Home", new { nereden = nereden,nereye=nereye,tarih=tarih,ucluKoltukFiltre = ucluFiltre })">
+<a class="btn btn-light" style=" float:right; border-color:@ucluFiltreBorder " href="@Url.Action("Seferler", "Home", new { nereden = nereden, nereye = nereye, tarih = tarih, ucluKoltukFiltre = ucluFiltre })">
     <i class="fas fa-couch"></i>
     <span>2+1</span>
 </a>
@@ -223,31 +230,23 @@
                         </div>
                         <div class="bus-select-wrapper">
                             <div id="bus-@sefer.ID"></div>
-                            <!--<div class="bus-section-outer">
+                            <div class="bus-section-outer">
                                 <div class="bus-section" style="width: 750px;">
                                     <div class="otobus-on">
                                         <img src="https://biletall-cdn.mncdn.com/img-v7/desktop/vendor-images/on_yeni.svg">
                                     </div>
                                     <div class="otobus-orta">
-                                        <div class="koltuk-sira">
+                                        <div class="koltuk-sira" data-index="4"></div>
+                                        <div class="koltuk-sira" data-index="3"></div>
+                                        <div class="koltuk-sira" data-index="2"></div>
+                                        <div class="koltuk-sira" data-index="1"></div>
+                                        <div class="koltuk-sira" data-index="0"></div>
 
-                                            <a class="koltuk unavailable" seat="4" koltukindex="4" koltukfiyat="30">
-                                                <span>4</span><img src="https://biletall-cdn.mncdn.com/img-v7/ortak/bay_dolu.svg">
-                                            </a>
-
-                                            <a class="koltuk available"-->
-                            @*onclick="javascript:koltukSec(0,5,40);"*@
-                            <!--seat="40" koltukindex="54" koltukfiyat="30">
-                                                <span>40</span>
-                                                <img src="https://biletall-cdn.mncdn.com/img-v7/ortak/ikonlar/bos_koltuk.svg">
-                                            </a>
-
-                                        </div>
 
                                     </div>
                                     <div class="otobus-arka"><img src="https://biletall-cdn.mncdn.com/img-v7/desktop/vendor-images/arka_yeni.svg"></div>
                                 </div>
-                            </div>-->
+                            </div>
 
                         </div>
                         <div class="bus-section-footer">
@@ -272,7 +271,18 @@
                                 </div>
                             </div>
                             <div class="middle-slot">
-                                <a href="javascript:void(0)" class="btn total-btn grey deactive_link"><span>Toplam <strong>0<i> TL</i></strong></span> <span>Devam Et</span></a>
+                                <a href="javascript:void(0)" class="btn total-btn grey deactive_link"><span>Toplam <strong class="fiyat"> </strong><strong> TL</strong></span> </a>
+
+                                <form id="pForm" asp-controller="Ev" asp-action="Index" method="post">
+                                    <input type="hidden" name="values" id="hidden" />
+
+                                    <input type="submit" value="Devam Et" id="submit" />
+                                </form>
+                                <button type="button" onclick="sendData(@sefer.ID)">
+                                </button>
+                                <a class="btn btn-danger" href="@Url.Action("Index", "Rezervasyon")">
+                                    <span>Devam Et</span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -437,58 +447,373 @@
 </div>
 @section Scripts
 {
+
     <script>
+
+        var tiklananKoltuk;
+        var id;
+        var toplamFiyat = 0;
+        var tiklanmaSayisi = 0;
+        var tiklanmaFiyatı = 0;
+        var array = [];
         $(document).ready(function () {
+
             $(document).on("click", ".select-seat", function () {
-                var id = $(this).data("id");
+                id = $(this).data("id");
                 var no = $(this).data("no");
+
                 $.ajax({
                     type: 'GET',
                     url: '/Sefer/KoltukBilgisi?seferReferans=' + no,
                     success: function (response) {
-                        console.log(response.data);
+
                         $(".expand-details-" + id).css('display', 'block');
+                        console.log(response.data);
 
-                        var dataHtml = "";
-                        $.each(response.data, function (i, item) {
-                            if (item.koltukNo == -1) {
+                        for (var i = 0; i < response.data.length; i++) {
+                            for (var j = 4; j >= 0 && i < response.data.length; j--) {
+                                //console.log(response.data[i].durumYan)
+                                var a = document.createElement('a')
+                                a.classList.add('koltuk')
+                                a.setAttribute("koltukStr", response.data[i].koltukStr)
+                                a.setAttribute("koltukNo", response.data[i].koltukNo)
+                                a.setAttribute("durum", response.data[i].durum)
+                                a.setAttribute("durumYan", response.data[i].durumYan)
+                                a.setAttribute("koltukFiyatiInternet", response.data[i].koltukFiyatiInternet)
 
-                            }
-                            else {
+                                if (response.data[i].koltukNo == "-1" || response.data[i].koltukNo == "-3") {
 
-                                if (item.durum == 0) {
-
-                                    dataHtml += "<div><img src='https://biletall-cdn.mncdn.com/img-v7/ortak/ikonlar/bos_koltuk.svg'></div>"
                                 }
-                                else if (item.durum == 1) {
-                                    dataHtml += "<div>Bayana satılmış</div>"
-                                }
-                            }
+                                else {
+                                    //console.log(i)
+                                    if (response.data[i].durum == "0") {
+                                        a.classList.add('koltuk')
+                                        a.classList.add('available')
+                                        a.setAttribute('onclick', "javascript:koltukSec();")
 
+
+                                        a.setAttribute('seat', response.data[i].koltukNo)
+                                        a.setAttribute('data-toggle', "popover")
+
+                                        a.setAttribute('data-title', "<img src='https://biletall-cdn.mncdn.com/img-v7/ortak/female.svg'  class='resim' id='kadinn' width=30px; height=35px; alt='Kadın'> <img src='https://biletall-cdn.mncdn.com/img-v7/ortak/male.svg' class='resim erkek' width=30px; height=35px alt='Erkek'>  ")
+                                        a.setAttribute('data-content', "Kadın Erkek")
+
+                                        //  a.setAttribute('data-trigger', "focus")
+                                        a.setAttribute('data-html', "true")
+                                        a.setAttribute('data-gender', "female")
+                                        a.setAttribute('data-row', "212")
+                                        a.setAttribute('koltukfiyat', response.data[i].koltukFiyatiInternet)
+
+                                        var spam = document.createElement('span')
+                                        spam.innerHTML = response.data[i].koltukNo;
+
+                                        var img = document.createElement("img");
+                                        img.setAttribute('src', "https://biletall-cdn.mncdn.com/img-v7/ortak/ikonlar/bos_koltuk.svg");
+
+                                        a.appendChild(spam)
+                                        a.appendChild(img)
+
+
+
+                                    }
+                                    else if (response.data[i].durum == "1") {
+                                        a.classList.add('koltuk')
+                                        a.classList.add('unavailable')
+                                        //a.setAttribute('onclick', "javascript:koltukSec(0,216,2);")
+                                        a.setAttribute('seat', response.data[i].koltukNo)
+                                        a.setAttribute('koltukfiyat', response.data[i].koltukFiyatiInternet)
+
+                                        var spam = document.createElement('span')
+                                        spam.innerHTML = response.data[i].koltukNo;
+
+                                        var img = document.createElement("img");
+                                        img.setAttribute('src', "https://biletall-cdn.mncdn.com/img-v7/ortak/bayan_dolu.svg");
+
+                                        a.appendChild(spam)
+                                        a.appendChild(img)
+
+
+
+
+                                    } else if (response.data[i].durum == "2") {
+                                        var a = document.createElement('a')
+                                        a.classList.add('koltuk')
+                                        a.classList.add('unavailable')
+                                        //a.setAttribute('onclick', "javascript:koltukSec(0,216,2);")
+                                        a.setAttribute('seat', response.data[i].koltukNo)
+                                        a.setAttribute('koltukfiyat', response.data[i].koltukFiyatiInternet)
+
+                                        var spam = document.createElement('span')
+                                        spam.innerHTML = response.data[i].koltukNo;
+
+                                        var img = document.createElement("img");
+                                        img.setAttribute('src', "https://biletall-cdn.mncdn.com/img-v7/ortak/bay_dolu.svg");
+
+                                        a.appendChild(spam)
+                                        a.appendChild(img)
+                                    }
+                                    else if (response.data[i].durum == "3") {
+                                        var a = document.createElement('a')
+                                        a.classList.add('koltuk')
+                                        a.classList.add('unavailable')
+                                        //a.setAttribute('onclick', "javascript:koltukSec(0,216,2);")
+                                        a.setAttribute('seat', response.data[i].koltukNo)
+                                        a.setAttribute('koltukfiyat', response.data[i].koltukFiyatiInternet)
+
+                                        var spam = document.createElement('span')
+                                        spam.innerHTML = response.data[i].koltukNo;
+
+                                        var img = document.createElement("img");
+                                        img.setAttribute('src', "https://biletall-cdn.mncdn.com/img-v7/ortak/bay_dolu.svg");
+
+                                        a.appendChild(spam)
+                                        a.appendChild(img)
+                                    } else if (response.data[i].durum == "4") {
+                                        var a = document.createElement('a')
+                                        a.classList.add('koltuk')
+                                        a.classList.add('unavailable')
+                                        //a.setAttribute('onclick', "javascript:koltukSec(0,216,2);")
+                                        a.setAttribute('seat', response.data[i].koltukNo)
+                                        a.setAttribute('koltukfiyat', response.data[i].koltukFiyatiInternet)
+
+                                        var spam = document.createElement('span')
+                                        spam.innerHTML = response.data[i].koltukNo;
+
+                                        var img = document.createElement("img");
+                                        img.setAttribute('src', "https://biletall-cdn.mncdn.com/img-v7/ortak/bay_dolu.svg");
+
+                                        a.appendChild(spam)
+                                        a.appendChild(img)
+                                    } else if (response.data[i].durum == "5") {
+                                        var a = document.createElement('a')
+                                        a.classList.add('koltuk')
+                                        a.classList.add('unavailable')
+                                        //a.setAttribute('onclick', "javascript:koltukSec(0,216,2);")
+                                        a.setAttribute('seat', "2")
+                                        a.setAttribute('koltukfiyat', response.data[i].koltukFiyatiInternet)
+
+                                        var spam = document.createElement('span')
+                                        spam.innerHTML = response.data[i].koltukNo;
+
+                                        var img = document.createElement("img");
+                                        img.setAttribute('src', "https://biletall-cdn.mncdn.com/img-v7/ortak/bay_dolu.svg");
+
+                                        a.appendChild(spam)
+                                        a.appendChild(img)
+                                    } else if (response.data[i].durum == "6") {
+                                        var a = document.createElement('a')
+                                        a.classList.add('koltuk')
+                                        a.classList.add('unavailable')
+                                        //a.setAttribute('onclick', "javascript:koltukSec(0,216,2);")
+                                        a.setAttribute('seat', response.data[i].koltukNo)
+                                        a.setAttribute('koltukfiyat', response.data[i].koltukFiyatiInternet)
+
+                                        var spam = document.createElement('span')
+                                        spam.innerHTML = response.data[i].koltukNo;
+
+                                        var img = document.createElement("img");
+                                        img.setAttribute('src', "https://biletall-cdn.mncdn.com/img-v7/ortak/bay_dolu.svg");
+
+                                        a.appendChild(spam)
+                                        a.appendChild(img)
+                                    }
+
+                                }
+
+                                $(".expand-details-" + id).children('div').children('div').children('div')
+                                    .children('div').children('div').children('.koltuk-sira')[j].appendChild(a);
+
+                                //console.log("i         : " + i)
+                                //console.log("j         : " + j)
+                                //console.log("Durum     : " + response.data[i].durum)
+                                //console.log("Koltuk No : " + response.data[i].koltukNo)
+                                i++;
+                            }
+                            i--;
+                        }
+                        //console.log("data boy" + response.data.length)
+                        //console.log("a adet" + $(".otobus-orta .koltuk-sira .koltuk").length)
+                        $.each($(".otobus-orta .koltuk-sira .koltuk"), function (i, item) {
+                            $(this).attr("data-durumYan", response.data[i].durumYan);
                         });
-                        var html = ''
-                            + '<div class="bus-section-outer"> '
-                            + '                                <div class="bus-section" style="width: 750px;"> '
-                            + '                                    <div class="otobus-on"> '
-                            + '                                        <img src="https://biletall-cdn.mncdn.com/img-v7/desktop/vendor-images/on_yeni.svg"> '
-                            + '                                    </div><div class="otobus-orta">'
-                            + '                                        <div class="koltuk-sira"> '
-                            + dataHtml
-                            + ' '
-                            + '                                        </div> '
-                            + '                                    </div><div class="otobus-arka"><img src="https://biletall-cdn.mncdn.com/img-v7/desktop/vendor-images/arka_yeni.svg"></div>'
-                            + '                                </div> '
-                            + '                            </div>';
-
-                        $("#bus-" + id).html(html);
                     },
                     error: function (err) {
                         console.error(err);
                     }
                 });
             });
-        });
 
+            $(".koltuk-sira").on("click", ".koltuk", function () {
+                tiklananKoltuk = $(this);
+            });
+
+
+            $("#pForm").submit(function (eventObj) {
+
+                var val = JSON.stringify(array);
+                $("#hidden").val(val);
+                return true;
+            });
+
+            $(document).on("click", "#kadinn", function () {
+
+                let siraIndex = tiklananKoltuk.parent(".koltuk-sira").attr("data-index");
+                let koltukNo = tiklananKoltuk[0].attributes[2].nodeValue;
+                tiklanmaFiyatı = parseInt(tiklananKoltuk[0].attributes["koltukFiyatiInternet"].nodeValue);
+                $(".expand-details-" + id + " .koltuk-sira").each(function (j, e) {
+                    let indx = e.getAttribute("data-index");
+
+                    if ((siraIndex - 1) == indx || (siraIndex + 1) == indx || siraIndex == indx) {
+
+                        for (var i = 0; i < e.children.length; i++) {
+
+                            koltukNo = parseInt(koltukNo);
+                            let yanKoltukNo = parseInt(e.children[i].getAttribute("koltukNo"));
+
+
+                            if (koltukNo + 1 == yanKoltukNo || koltukNo - 1 == yanKoltukNo || koltukNo == yanKoltukNo) {
+
+                                console.log("Tıklanan koltuk no : " + koltukNo)
+                                console.log("Yan koltuk no      : " + yanKoltukNo)
+                                console.log(e.children[i]);
+
+                                if (e.children[i].getAttribute("durumYan") == "2") {
+                                    console.log("Erkeğe satılabilir.");
+                                    toplamFiyat = toplamFiyat - tiklanmaFiyatı;
+                                    return;
+                                } else if (e.children[i].durumYan == "3") {
+                                    console.log("Satılamaz.");
+                                    toplamFiyat = toplamFiyat - tiklanmaFiyatı;
+                                    return;
+                                } else if (e.children[i].durumYan == "4") {
+                                    console.log("Satılamaz.");
+                                    toplamFiyat = toplamFiyat - tiklanmaFiyatı;
+                                    return;
+                                } else if (e.children[i].durumYan == "5") {
+                                    console.log("Satılamaz.")
+                                    toplamFiyat = toplamFiyat - tiklanmaFiyatı;
+                                    return;
+                                } else if (e.children[i].durumYan == "6") {
+                                    console.log("Satılamaz.");
+                                    toplamFiyat = toplamFiyat - tiklanmaFiyatı;
+                                    return;
+                                } else {
+
+                                    e.children[i].setAttribute("durumYan", "1");
+                                    e.children[i].durumYan = "1";
+                                    e.children[i].setAttribute("durum", "1");
+                                    e.children[i].durum = "1";
+                                    tiklananKoltuk.children("img")[0].setAttribute("src", "https://biletall-cdn.mncdn.com/img-v7/ortak/bayan_dolu.svg");
+                                    tiklananKoltuk.addClass('koltuk')
+                                    tiklananKoltuk.addClass('unavailable')
+                                }
+                            }
+                        }
+                    }
+
+                });
+                toplamFiyat += parseInt(tiklananKoltuk[0].attributes["koltukFiyatiInternet"].nodeValue);
+                array.push({ Gender: "Kadın", KoltukNo: tiklananKoltuk[0].attributes["koltukNo"].nodeValue });
+
+                tiklanmaSayisi++;
+                console.log(tiklanmaSayisi)
+
+                $('.fiyat').html(toplamFiyat);
+                $('.popover').hide();
+
+            });// kadın
+
+            $(document).on("click", ".erkek", function () {
+
+                let siraIndex = tiklananKoltuk.parent(".koltuk-sira").attr("data-index");
+                let koltukNo = tiklananKoltuk[0].attributes[2].nodeValue;
+
+                $(".expand-details-" + id + " .koltuk-sira").each(function (j, e) {
+
+                    let indx = e.getAttribute("data-index");
+
+                    if ((siraIndex - 1) == indx || (siraIndex + 1) == indx || siraIndex == indx) {
+
+                        for (var i = 0; i < e.children.length; i++) {
+
+                            koltukNo = parseInt(koltukNo);
+                            let yanKoltukNo = parseInt(e.children[i].getAttribute("koltukNo"));
+
+                            if (koltukNo + 1 == yanKoltukNo || koltukNo - 1 == yanKoltukNo || koltukNo == yanKoltukNo) {
+
+                                console.log("Tıklanan koltuk no : " + koltukNo)
+                                console.log("Yan koltuk no      : " + yanKoltukNo)
+                                console.log(e.children[i]);
+
+                                if (e.children[i].getAttribute("durumYan") == "1") {
+                                    console.log("Erkeğe satılabilir.");
+                                    toplamFiyat = toplamFiyat - tiklanmaFiyatı;
+                                    return;
+                                } else if (e.children[i].durumYan == "3") {
+                                    console.log("Satılamaz.");
+                                    toplamFiyat = toplamFiyat - tiklanmaFiyatı;
+                                    return;
+                                } else if (e.children[i].durumYan == "4") {
+                                    console.log("Satılamaz.");
+                                    toplamFiyat = toplamFiyat - tiklanmaFiyatı;
+                                    return;
+                                } else if (e.children[i].durumYan == "5") {
+                                    console.log("Satılamaz.");
+                                    toplamFiyat = toplamFiyat - tiklanmaFiyatı;
+                                    return;
+                                } else if (e.children[i].durumYan == "6") {
+                                    console.log("Satılamaz.");
+                                    toplamFiyat = toplamFiyat - tiklanmaFiyatı;
+                                    return;
+                                } else {
+
+                                    e.children[i].setAttribute("durumYan", "2");
+                                    e.children[i].durumYan = "2";
+                                    e.children[i].setAttribute("durum", "2");
+                                    e.children[i].durum = "2";
+                                    tiklananKoltuk.children("img")[0].setAttribute("src", "https://biletall-cdn.mncdn.com/img-v7/ortak/bay_dolu.svg");
+                                    tiklananKoltuk.addClass('koltuk')
+                                    tiklananKoltuk.addClass("unavailable")
+
+                                }
+                            }
+                        }
+                    }
+
+
+                });
+                toplamFiyat += parseInt(tiklananKoltuk[0].attributes["koltukFiyatiInternet"].nodeValue);
+                tiklanmaSayisi++;
+                $('.fiyat').html(toplamFiyat);
+                $('.popover').hide();
+            });// erkek
+
+
+        });// document.ready
+
+        function koltukSec(i, item) {
+            $('[data-toggle="popover"]').popover({
+
+            })
+        }
+        function sendData(seferId) {
+            console.log(array);
+
+            $.ajax({
+                url: '/Home/Deneme',
+                type: 'POST',
+              
+                data: { seferId: seferId, selectedData: array },
+                success: function (gelenveri) {
+                    console.log(gelenveri)
+                },
+                error: function (hata) {
+                    alertify.error('Erişim Sağlanamadı.');
+
+                }
+            });
+           
+        }
     </script>
 }
 
